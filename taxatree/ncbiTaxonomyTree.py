@@ -1,8 +1,7 @@
-#!/bin/env python
+#!/bin/env python2.7
 # encoding: utf-8
 # from __future__ import print_function
 from __future__ import division
-
 
 import os
 import sys
@@ -11,7 +10,6 @@ from collections import Iterable
 from collections import namedtuple
 import logging
 log = logging.getLogger(os.path.basename(__file__))
-sys.path.append("./")
 # log.disabled = True
 
 
